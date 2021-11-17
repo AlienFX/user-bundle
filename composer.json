@@ -1,0 +1,23 @@
+{
+    "name": "alienfx-area/user-bundle",
+    "description": "User Bundle: user package for AlienFX Area",
+    "authors" : [
+        {
+            "name": "Florian Ronzi",
+            "email": "manager@alienfx.net",
+            "role": "Developer"
+        }
+    ],
+	  "autoload": {
+        "psr-0": {
+            "Area\\User": "src/",
+			      "Area\\UserAuth": "src/"
+        }
+    },
+	  "require": {
+
+    },
+    "require-dev": {
+
+    }
+}
